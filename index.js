@@ -1,7 +1,11 @@
 const getCryptoPrice = async (cryptoName, quantity, currencyCode) => {
-  const id = cryptoName.toLowerCase();
-
   try {
+    const id = cryptoName.toLowerCase();
+
+    if (quantity < 0) {
+      throw new Error("Quantity must be 0 or more!");
+    }
+
     const res = await fetch(
       `https://api.coingecko.com/api/v3/coins/${id}?localization=false&tickers=false&community_data=false&developer_data=false`
     );
