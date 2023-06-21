@@ -1,0 +1,24 @@
+{
+  "name": "crypto-prices-converter",
+  "version": "1.0.0",
+  "description": "Convert Crypto Prices To Real Currencies",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Mouizeddine/crypto-converter-library.git"
+  },
+  "keywords": [
+    "crypto",
+    "convert",
+    "prices"
+  ],
+  "author": "Mouiz",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Mouizeddine/crypto-converter-library/issues"
+  },
+  "homepage": "https://github.com/Mouizeddine/crypto-converter-library#readme"
+}
