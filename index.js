@@ -1,4 +1,4 @@
-const getCryptoPrice = async (cryptoName, currencyCode) => {
+const getCryptoPrice = async (cryptoName, quantity, currencyCode) => {
   const id = cryptoName.toLowerCase();
 
   try {
@@ -14,9 +14,11 @@ const getCryptoPrice = async (cryptoName, currencyCode) => {
       throw new Error("Currency Not Available!");
     }
 
-    const cryptoPriceData = data.market_data.current_price[currencyCode];
+    const cryptoPrice = data.market_data.current_price[currencyCode];
 
-    return cryptoPriceData;
+    const totalCryptoPrice = cryptoPrice * quantity;
+
+    return totalCryptoPrice;
   } catch (err) {
     if (err instanceof Error) {
       console.log(error);
