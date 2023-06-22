@@ -1,6 +1,6 @@
 {
   "name": "crypto-prices-converter",
-  "version": "1.2.3",
+  "version": "1.2.5",
   "description": "Convert Crypto Prices To Real Currencies",
   "main": "index.js",
   "scripts": {
