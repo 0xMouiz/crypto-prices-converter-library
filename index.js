@@ -54,7 +54,6 @@ const convertCurrency = async (currencyCode, quantity, cryptoName) => {
 
     const cryptoQuantity = quantity / cryptoPrice;
 
-    // console.log(cryptoQuantity);
 
     return cryptoQuantity;
   } catch (err) {
