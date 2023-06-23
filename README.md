@@ -112,8 +112,4 @@ This example calculates the total price of 2 Bitcoins in US Dollars (USD) and lo
 
 # Repository
 
-For more information and updates, you can visit the GitHub repository of **crypto-prices-converter**:
-
-**https://github.com/Mouizeddine/crypto-converter-library**
-
 Feel free to explore the repository, contribute, or submit any issues or feature requests.
